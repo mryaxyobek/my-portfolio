@@ -16,3 +16,6 @@
     margin-left: auto;
     margin-right: auto;
 }
+.dark-mode{
+    background-color: #000;
+}
