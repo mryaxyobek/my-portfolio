@@ -9,13 +9,39 @@
     box-sizing: border-box;
 }
 .container{
-    max-width: 1100px;
+    max-width: 1240px;
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
 }
-.dark-mode{
-    background-color: #000;
+.body{
+    background-image: url(../images/background-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Signika', sans-serif; 
+    font-weight: 500;
+}
+.header {
+}
+.container {
+}
+.header-parent-div {
+}
+.logo-img {
+}
+.header-title {
+}
+.nav-and-button-wrapper {
+}
+.header-nav {
+}
+.header-ul {
+}
+.header-li {
+}
+.header-link {
+}
+.night-mode-button {
 }
