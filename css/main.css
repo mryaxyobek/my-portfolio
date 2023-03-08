@@ -38,12 +38,10 @@ html{
 
 .header {
     position: fixed;
-    padding: 20px 0;
+    padding: 10px 0;
     top: 0;
     right: 0;
     left: 0;
-    border-bottom: 1px solid #fff;
-    background-image: linear-gradient(135deg, #fff 25%,var(--main-color));
 }
 .header-parent-div {
     display: flex;
@@ -56,14 +54,14 @@ html{
     text-decoration: none;
 }
 .logo-img {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     border-radius: 50px;
     margin-right: 10px;
 }
 .header-title {
     color:var(--main-color) ;
-    font-size: 25px;
+    font-size: 18px;
 }
 .nav-and-button-wrapper {
     display: flex;
@@ -81,14 +79,22 @@ html{
 .header-link {
     text-decoration: none;
     color: var(--second-main-color);
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 500;   
 }
 .night-mode-button {
     margin-left: 20px;
     padding: 10px 20px;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 15px;
     font-family: var(--main-font);
     border: none;
+}
+.header-circle-background-img{
+    position: absolute;
+    bottom: 0px;
+    z-index: -3;
+    left: calc(50% - 440px);
+    width: 90px;
+    height: 45px;
 }
