@@ -90,11 +90,3 @@ html{
     font-family: var(--main-font);
     border: none;
 }
-.header-circle-background-img{
-    position: absolute;
-    bottom: 0px;
-    z-index: -3;
-    left: calc(50% - 440px);
-    width: 90px;
-    height: 45px;
-}
