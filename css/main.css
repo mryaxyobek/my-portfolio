@@ -1,8 +1,17 @@
 :root{
     --main-color:#0594d1;
-    --second-main-color:#2b2b2b;
+    --second-main-color:#292c2f;
+    --white-color:white;
     --main-font: 'Signika', sans-serif; 
+    --header-box-shadow: 0 0 4px 0px #777777;
 }
+.night-mode{
+    --second-main-color:#fff;
+    color: var(--main-color);
+    --header-box-shadow: 0 0 4px 0px #777777;
+    --header-bg-color:#021024;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -25,14 +34,12 @@ html{
     margin-right: auto;
 }
 .body{
+    margin-top: 85px;
     color: var(--second-main-color);
     font-family: 'Signika', sans-serif; 
     font-weight: 500;
 }
-.night-mode{
-    background: var(--second-main-color);
-    color: var(--main-color);
-}
+
 
 /* header  */
 
@@ -42,7 +49,9 @@ html{
     top: 0;
     right: 0;
     left: 0;
-    box-shadow: 0 -2px 6px 0 var(--second-main-color);
+    z-index: 3;
+    background-color: var(--header-bg-color);
+    box-shadow: var(--header-box-shadow);
 }
 .header-parent-div {
     display: flex;
@@ -62,7 +71,7 @@ html{
     height: 60px;
     border-radius: 50px;
     margin-right: 10px;
-
+    border: 2px solid white;
 }
 @keyframes animate {
     0%{
@@ -87,8 +96,8 @@ html{
     opacity: 0;
     animation: animate 3s ease infinite;
     max-width: 60px;
-    width: 100%;
-    height: 50%;
+    width: 56px;
+    height: 28px;
     justify-content: center;
     align-items: center;
     border-radius: 0 0 50px 50px ;
@@ -96,8 +105,8 @@ html{
     background-color: rgba(0, 0, 0, 0.5);
     font-size: 10px;
     z-index: 2;
-    bottom: 5px;
-    left: 0;
+    bottom: 6.5px;
+    left: 2px;
     right: 0;
     transition: all 0.7s ease;
 }
@@ -118,6 +127,9 @@ html{
 .header-li {
     list-style: none;
     position: relative;
+}
+.header-li :focus{
+    outline: none;
 }
 .header-li::after{
     position: absolute;
@@ -140,6 +152,9 @@ html{
 .header-li:not(:last-child) {
     margin-right: 15px;
 }
+.header-li:visited{
+    margin-bottom: 1px solid black;
+}
 .header-link {
     text-decoration: none;
     color: var(--second-main-color);
@@ -160,6 +175,6 @@ html{
 }
 .night-mode-button:hover{
     border: 2px solid var(--main-color);
-    background-color: white;
+    background-color: var(--header-bg-color);
     color: var(--main-color);
 }
