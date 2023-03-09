@@ -10,7 +10,7 @@
     --second-main-color:#fff;
     color: var(--main-color);
     --hero-bg-img: url(../images/white-laptop.svg);
-    --header-box-shadow: 0 0 1px #ffffff;
+    --header-box-shadow: 0 0 0 1px #ffffff;
     --header-bg-color:#021024;
 }
 
@@ -34,7 +34,7 @@ html{
     margin-right: auto;
 }
 .body{
-    margin-top: 85px;
+    margin-top: 81px;
     color: var(--second-main-color);
     font-family: 'Signika', sans-serif; 
     font-weight: 500;
