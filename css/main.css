@@ -1,5 +1,5 @@
 :root{
-    --main-color:#0553d1;
+    --main-color:#0594d1;
     --second-main-color:#2b2b2b;
     --main-font: 'Signika', sans-serif; 
 }
@@ -42,6 +42,7 @@ html{
     top: 0;
     right: 0;
     left: 0;
+    box-shadow: 0 -2px 6px 0 var(--second-main-color);
 }
 .header-parent-div {
     display: flex;
@@ -50,17 +51,61 @@ html{
 }
 .logo-link{
     display: flex;
+    position: relative;
     align-items: center;
     text-decoration: none;
 }
 .logo-img {
+    position: relative;
+    z-index: 1;
     width: 60px;
     height: 60px;
     border-radius: 50px;
     margin-right: 10px;
+
+}
+@keyframes animate {
+    0%{
+    content: "html";
+    }
+    30%{
+        content: "css";
+
+    }
+    60%{
+        content: "bootstrap";
+
+    }
+    100%{
+        content: "html";
+    }
+}
+.logo-img-div::after{
+    display: flex;
+    content: "html";
+    position: absolute;
+    opacity: 0;
+    animation: animate 3s ease infinite;
+    max-width: 60px;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 50px 50px ;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 10px;
+    z-index: 2;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    transition: all 0.7s ease;
+}
+.logo-img-div:hover::after{
+    opacity: 1;
 }
 .header-title {
-    color:var(--main-color) ;
+    color:var(--main-color);
     font-size: 18px;
 }
 .nav-and-button-wrapper {
@@ -83,10 +128,12 @@ html{
     font-weight: 500;   
 }
 .night-mode-button {
-    margin-left: 20px;
+    margin-left: 30px;
     padding: 10px 20px;
     border-radius: 10px;
     font-size: 15px;
     font-family: var(--main-font);
     border: none;
+    background-color: var(--main-color);
+    color: #fff;
 }
