@@ -226,6 +226,13 @@ section{
     font-size: 12px;
     color: var(--second-main-color);
     opacity: 0.7;
+    margin-bottom: 60px;
+}
+.contact-link{
+    display: inline-block;
+    text-decoration: none;
+    margin: 0;
+    padding: 6px 20px;
 }
 .hero-p-link{
     text-decoration: none;
