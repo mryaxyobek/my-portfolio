@@ -10,7 +10,7 @@
     --second-main-color:#fff;
     color: var(--main-color);
     --hero-bg-img: url(../images/white-laptop.svg);
-    --header-box-shadow: 0 0 4px 0px #777777;
+    --header-box-shadow: 0 0 6px 0px #ffffff;
     --header-bg-color:#021024;
 }
 
@@ -192,8 +192,8 @@ section{
 }
 .hero-wrapper {
     display: flex;
-    flex-direction: column;
     text-align: left;
+    justify-content: space-around;
 }
 .hero-title-span{
     color: var(--second-main-color);
@@ -212,4 +212,7 @@ section{
 .hero-p-link{
     text-decoration: none;
     color: var(--main-color);
+}
+.hero-worker-man-img{
+    width: 35%;
 }
