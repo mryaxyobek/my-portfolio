@@ -247,7 +247,8 @@ h2{
     color: var(--main-color);
 }
 .hero-worker-man-img{
-    width: 35%;
+    width: 30%;
+    height: 28%;
 }
 
 /* Second section  */
@@ -277,3 +278,6 @@ h2{
     font-size: 16px;
     word-spacing: 3px;
 }
+
+/* projects section  */
+
