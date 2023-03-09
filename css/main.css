@@ -39,7 +39,9 @@ html{
     font-family: 'Signika', sans-serif; 
     font-weight: 500;
 }
-
+section{
+    padding: 100px 0;
+}
 
 /* header  */
 
@@ -177,4 +179,28 @@ html{
     border: 2px solid var(--main-color);
     background-color: var(--header-bg-color);
     color: var(--main-color);
+}
+
+/* Hero section  */
+
+.hero-section {
+}
+.container {
+}
+.hero-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.laptop-img-div {
+    background-image: url(../images/laptop.svg);
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-section-title {
+}
+.hero-section-p {
 }
