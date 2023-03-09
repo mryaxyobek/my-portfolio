@@ -4,10 +4,12 @@
     --white-color:white;
     --main-font: 'Signika', sans-serif; 
     --header-box-shadow: 0 0 4px 0px #777777;
+    --header-bg-color:#fff;
 }
 .night-mode{
     --second-main-color:#fff;
     color: var(--main-color);
+    --hero-bg-img: url(../images/white-laptop.svg);
     --header-box-shadow: 0 0 4px 0px #777777;
     --header-bg-color:#021024;
 }
@@ -40,7 +42,7 @@ html{
     font-weight: 500;
 }
 section{
-    padding: 100px 0;
+    padding: 80px 0;
 }
 
 /* header  */
@@ -184,23 +186,30 @@ section{
 /* Hero section  */
 
 .hero-section {
-}
-.container {
+    position: relative;
+    background-color: var(--header-bg-color);
+    z-index: 1;
 }
 .hero-wrapper {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    align-items: center;
+    text-align: left;
 }
-.laptop-img-div {
-    background-image: url(../images/laptop.svg);
-    width: 100px;
-    height: 100px;
-    background-repeat: no-repeat;
-    background-size: cover;
+.hero-title-span{
+    color: var(--second-main-color);
 }
 .hero-section-title {
+    font-size: 40px;
+    color: var(--main-color);
+    line-height: 40px;
+    margin-bottom: 10px;
 }
 .hero-section-p {
+    font-size: 12px;
+    color: var(--second-main-color);
+    opacity: 0.7;
+}
+.hero-p-link{
+    text-decoration: none;
+    color: var(--main-color);
 }
