@@ -10,7 +10,7 @@
     --second-main-color:#fff;
     color: var(--main-color);
     --hero-bg-img: url(../images/white-laptop.svg);
-    --header-box-shadow: 0 0 6px 0px #ffffff;
+    --header-box-shadow: 0 0 1px #ffffff;
     --header-bg-color:#021024;
 }
 
@@ -23,9 +23,7 @@ html{
     box-sizing: border-box;
 }
 *:focus{
-    outline: 2px dashed var(--second-main-color);
-    outline-offset: 3px;
-    border-radius: 8px;
+    outline:none;
 }
 .container{
     max-width: 1240px;
@@ -98,7 +96,7 @@ section{
     content: "html";
     position: absolute;
     opacity: 0;
-    animation: animate 3s ease infinite;
+    animation: animate 2s ease infinite;
     max-width: 60px;
     width: 56px;
     height: 28px;
@@ -135,6 +133,9 @@ section{
 .header-li :focus{
     outline: none;
 }
+.header-li:active{
+    opacity: 0.7;
+}
 .header-li::after{
     position: absolute;
     content: "";
@@ -152,6 +153,10 @@ section{
 }
 .header-li:hover:after{
     transform: scaleX(1);
+}
+.header-li:active:after{
+    transform: scaleX(0);
+    opacity: 0.7;
 }
 .header-li:not(:last-child) {
     margin-right: 15px;
@@ -181,6 +186,9 @@ section{
     border: 2px solid var(--main-color);
     background-color: var(--header-bg-color);
     color: var(--main-color);
+}
+.night-mode-button:active{
+    opacity: 0.7;
 }
 
 /* Hero section  */
