@@ -2,16 +2,16 @@
     --main-color:#0594d1;
     --second-main-color:#292c2f;
     --white-color:white;
+    --gray-color:#777;
     --main-font: 'Signika', sans-serif; 
-    --header-box-shadow: 0 0 4px 0px #777777;
+    --header-box-shadow: 0 0 4px 0px #777;
     --header-bg-color:#fff;
 }
 .night-mode{
     --second-main-color:#fff;
-    color: var(--main-color);
-    --hero-bg-img: url(../images/white-laptop.svg);
-    --header-box-shadow: 0 0 0 1px #ffffff;
+    --header-box-shadow: 0 0 0 1px #fff;
     --header-bg-color:#021024;
+    --gray-color:#fff;
 }
 
 html{
@@ -241,3 +241,6 @@ section{
 .hero-worker-man-img{
     width: 35%;
 }
+
+/* About section  */
+
