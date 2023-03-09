@@ -91,6 +91,10 @@ section{
         content: "html";
     }
 }
+.logo-img-div{
+    max-height: 60px;
+    height: 100%;
+}
 .logo-img-div::after{
     display: flex;
     content: "html";
@@ -99,7 +103,7 @@ section{
     animation: animate 2s ease infinite;
     max-width: 60px;
     width: 56px;
-    height: 28px;
+    height: 50%;
     justify-content: center;
     align-items: center;
     border-radius: 0 0 50px 50px ;
@@ -107,7 +111,7 @@ section{
     background-color: rgba(0, 0, 0, 0.5);
     font-size: 10px;
     z-index: 2;
-    bottom: 6.5px;
+    bottom: 2px;
     left: 2px;
     right: 0;
     transition: all 0.7s ease;
