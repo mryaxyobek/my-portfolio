@@ -12,7 +12,7 @@
     --night-mode-display:none;
     --night-mode--m-display:inline-block;
     --project-section-li-bgcolor:#fff;
-    --project-section-li-border: 2px solid #777;
+    --project-section-li-border: 2px solid #d1d1d1;
 }
 .night-mode{
     --second-main-color:#fff;
@@ -59,7 +59,7 @@ section{
 }
 h2{
     font-size: 35px;
-    color: var(--second-main-color);
+    color: var(--main-color);
 }
 
 /* header  */
@@ -311,7 +311,6 @@ h2{
 }
 .second-section-title {
     margin-bottom: 20px;
-    color: var(--main-color);
 }
 .second-section-p {
     font-size: 16px;
@@ -325,27 +324,61 @@ h2{
     background-color: var(--night-mode-main-bg-color);
 }
 .projects-section-title {
+    text-align: center;
+    margin-bottom: 20px;
 }
 .projects-section-ul {
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 20px;
+    grid-gap: 12px;
 }
 .projects-section-li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
     list-style: none;
     background-color: var(--project-section-li-bgcolor);
     border: var(--project-section-li-border);
     border-radius: 20px;
 }
+.projects-section-img-and-texts-wrapper{
+    display: flex;
+    align-items: center;
+}
 .projects-section-li-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    box-shadow: 0 0 0 2.5px #d1d1d1;
+    margin-right: 8px;
+}
+.projects-section-site-title{
+    font-size: 18px;
+    margin-bottom: 6px;
 }
 .projects-section-li-first-p {
+    opacity: 0.7;
+    font-size: 12px;
+    margin-bottom: 4px;
 }
 .projects-section-li-second-p {
+    font-size: 12px;
 }
 .projects-section-li-p-span {
+    opacity: 0.7;
 }
 .projects-section-links-wrapper {
+    display: flex;
+    flex-direction: column;
 }
 .project-section-links {
+    padding: 5px 20px;
+    text-decoration: none;
+    color: var(--main-color);
+    background-color: var(--night-mode-blue-main-bg-color);
+    border-radius: 6px;
+}
+.project-section-links:not(:last-child){
+    margin-bottom: 8px;
 }
