@@ -1,6 +1,6 @@
 :root{
     --main-color:#0594d1;
-    --second-main-color:#292c2f;
+    --second-main-color:#37393a;
     --white-color:white;
     --main-font: 'Signika', sans-serif; 
     --header-box-shadow: 0 0 4px 0px #777;
@@ -11,8 +11,8 @@
     --night-mode-moon-icon:url(../images/moon-icon.svg);
     --night-mode-display:none;
     --night-mode--m-display:inline-block;
-    --project-section-li-bgcolor:#fff;
-    --project-section-li-border: 2px solid #d1d1d1;
+    --project-section-li-bgcolor:#f9f9f9;
+    --project-section-li-box-shadow: 0 2px 4px 0px  #cdcdcd;
 }
 .night-mode{
     --second-main-color:#fff;
@@ -25,7 +25,7 @@
     --night-mode-display:inline-block;
     --night-mode--m-display:none;
     --project-section-li-bgcolor:#0f2535;
-    --project-section-li-border: none;
+    --project-section-li-box-shadow:none;
 }
 
 html{
@@ -339,8 +339,11 @@ h2{
     padding: 15px 10px;
     list-style: none;
     background-color: var(--project-section-li-bgcolor);
-    border: var(--project-section-li-border);
     border-radius: 20px;
+    transition:box-shadow 0.3s ease ;
+}
+.projects-section-li:hover{
+    box-shadow:var(--project-section-li-box-shadow) ;
 }
 .projects-section-img-and-texts-wrapper{
     display: flex;
@@ -350,7 +353,7 @@ h2{
     width: 100px;
     height: 100px;
     border-radius: 100px;
-    box-shadow: 0 0 0 2.5px #d1d1d1;
+    border: 2px solid #fff;
     margin-right: 8px;
 }
 .projects-section-site-title{
