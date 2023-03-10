@@ -18,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
 </head>
 <body class="body">
-
+<span style="visibility: hidden; position: absolute; top: 0;" id="home"></span>
     <!-- header  -->
 
     <header class="header">
@@ -37,7 +37,7 @@
                     <!-- nav  -->
                     <nav>
                         <ul class="header-ul">
-                            <li class="header-li"><a href="index.html" class="header-link">Home</a></li>
+                            <li class="header-li"><a href="#home" class="header-link">Home</a></li>
                             <li class="header-li"><a href="#about" class="header-link">About</a></li>
                             <li class="header-li"><a href="#projects" class="header-link">Projects</a></li>
                             <li class="header-li"><a href="#contact" class="header-link">Contact</a></li>
@@ -72,13 +72,13 @@
 
     <!-- second section -->
 
-    <section class="second-section">
+    <section id="about" class="second-section">
         <div class="container">
             <div class="second-section-first-child-div">
                 <!-- background image  -->
                 <img  src="./images/worker-man.jpg" alt="worker-man.jpg" class="second-section-background-img">
                 <div class="hero-items-wrapper">
-                    <h2 id="about" class="second-section-title">About me</h2>
+                    <h2 class="second-section-title">About me</h2>
                     <p class="second-section-p">Hello, my full name is Khabibulayev Yakhayobek. I was born on November 8, 2006. I am studying this field because I am interested in Fronent. It's been 6 months since I started studying this field. I am now very good at HTML, CSS and Bootstrap. You can see my projects below. Thank you for your attention!If you have suggestions or comments, please contact: <a class="hero-p-link" href="https://pubgn9642@gmail.com">pubgn9642@gmail.com</a></p>
                 </div>
             </div>
@@ -87,10 +87,10 @@
 
     <!-- Projects section -->
 
-    <section class="projects-section">
+    <section id="projects" class="projects-section">
         <div class="container">
             <!-- title  -->
-            <h2 id="projects" class="projects-section-title">Projects</h2>
+            <h2 class="projects-section-title">Projects</h2>
             <!-- ul  -->
             <ul class="projects-section-ul">
                 <li class="projects-section-li">
@@ -186,6 +186,12 @@
             </ul>
         </div>
     </section>
+
+    <!-- footer  -->
+
+    <footer id="contact" class="footer">
+        <div class="container"></div>
+    </footer>
     <!-- JS  -->
     <script src="index.js"></script>
 </body>

@@ -17,7 +17,7 @@
 .night-mode{
     --second-main-color:#fff;
     --header-box-shadow:none;
-    --night-mode-blue-main-bg-color:#041a2b;
+    --night-mode-blue-main-bg-color:#001c32;
     --night-mode-main-bg-color:#041a2b;
     --header-bg-color:#021024;
     --gray-color:#999999;
@@ -384,4 +384,11 @@ h2{
 }
 .project-section-links:not(:last-child){
     margin-bottom: 8px;
+}
+
+/* footer */
+
+.footer{
+    padding: 80px 0;
+    background-color: var(--night-mode-blue-main-bg-color);
 }
