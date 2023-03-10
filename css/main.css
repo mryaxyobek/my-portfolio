@@ -6,14 +6,19 @@
     --main-font: 'Signika', sans-serif; 
     --header-box-shadow: 0 0 4px 0px #777;
     --header-bg-color:#fff;
-    --night-mode-lighting-icon:url(../images/blue-light-mode-icon.svg);
-    --night-mode-lighting-icon:url(../images/blue-moon-icon.svg);
+    --night-mode-lighting-icon:url(../images/light-mode-icon.svg);
+    --night-mode-moon-icon:url(../images/moon-icon.svg);
+    --night-mode-display:none;
+    --night-mode--m-display:inline-block;
 }
 .night-mode{
     --second-main-color:#fff;
     --header-box-shadow: 0 0 0 1px #fff;
     --header-bg-color:#021024;
     --gray-color:#999999;
+    --night-mode-lighting-icon:url(../images/light-mode-icon.svg);
+    --night-mode-display:inline-block;
+    --night-mode--m-display:none;
 }
 
 html{
@@ -183,6 +188,9 @@ h2{
     font-weight: 500;   
 }
 .night-mode-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 30px;
     padding: 6px 16px;
     border-radius: 10px;
@@ -193,30 +201,33 @@ h2{
     color: #fff;
     transition: all 0.4s ease;
     border: 2px solid var(--main-color);
+
 }
-.fa-lightbulb{
-    display: inline-block;
-    color: white;
-    height: 20px;
+.night-mode-light-img {
+    display: var(--night-mode-display);
+    background-image: var(--night-mode-lighting-icon);
+    background-size: cover;
     width: 20px;
+    height: 20px;
+}
+.night-mode-moon-img {
+    display: var(--night-mode--m-display);
+    background-image: var(--night-mode-moon-icon);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
 }
 .night-mode-button:hover{
     border: 2px solid var(--main-color);
     background-color: var(--header-bg-color);
     color: var(--main-color);
+    --night-mode-moon-icon:url(../images/blue-moon-icon.svg);
+    --night-mode-lighting-icon:url(../images/blue-light-mode-icon.svg);
 }
 .night-mode-button:active{
     opacity: 0.7;
 }
-.night-mode-light-img {
-    width: 20px;
-    height: 20px;
-}
-.night-mode-moon-img {
-    width: 20px;
-    height: 20px;
-}
-/* Hero section  */
+/* Hero section  */ 
 
 .hero-section {
     position: relative;
