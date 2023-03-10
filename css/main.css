@@ -6,6 +6,8 @@
     --main-font: 'Signika', sans-serif; 
     --header-box-shadow: 0 0 4px 0px #777;
     --header-bg-color:#fff;
+    --night-mode-lighting-icon:url(../images/blue-light-mode-icon.svg);
+    --night-mode-lighting-icon:url(../images/blue-moon-icon.svg);
 }
 .night-mode{
     --second-main-color:#fff;
@@ -206,7 +208,14 @@ h2{
 .night-mode-button:active{
     opacity: 0.7;
 }
-
+.night-mode-light-img {
+    width: 20px;
+    height: 20px;
+}
+.night-mode-moon-img {
+    width: 20px;
+    height: 20px;
+}
 /* Hero section  */
 
 .hero-section {
