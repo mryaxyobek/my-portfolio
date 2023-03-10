@@ -2,10 +2,11 @@
     --main-color:#0594d1;
     --second-main-color:#292c2f;
     --white-color:white;
-    --gray-color:#777;
     --main-font: 'Signika', sans-serif; 
     --header-box-shadow: 0 0 4px 0px #777;
     --header-bg-color:#fff;
+    --night-mode-blue-main-bg-color:#e9f2ff;
+    --night-mode-main-bg-color:#fff;
     --night-mode-lighting-icon:url(../images/light-mode-icon.svg);
     --night-mode-moon-icon:url(../images/moon-icon.svg);
     --night-mode-display:none;
@@ -13,7 +14,9 @@
 }
 .night-mode{
     --second-main-color:#fff;
-    --header-box-shadow: 0 0 0 1px #fff;
+    --header-box-shadow:none;
+    --night-mode-blue-main-bg-color:#041a2b;
+    --night-mode-main-bg-color:#041a2b;
     --header-bg-color:#021024;
     --gray-color:#999999;
     --night-mode-lighting-icon:url(../images/light-mode-icon.svg);
@@ -23,7 +26,6 @@
 
 html{
     scroll-behavior: smooth;
-    background-color: var(--header-bg-color);
 }
 *{
     padding: 0;
@@ -43,7 +45,7 @@ html{
     margin-right: auto;
 }
 .body{
-    margin-top: 81px;
+    margin-top: 80px;
     color: var(--second-main-color);
     font-family: 'Signika', sans-serif; 
     font-weight: 500;
@@ -226,7 +228,7 @@ h2{
 
 .hero-section {
     position: relative;
-    background-color: var(--header-bg-color);
+    background-color: var(--night-mode-main-bg-color);
     z-index: 1;
 }
 .hero-wrapper {
@@ -241,7 +243,7 @@ h2{
     font-size: 40px;
     color: var(--main-color);
     line-height: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .hero-section-p {
     display: block;
@@ -270,8 +272,7 @@ h2{
 
 .second-section {
     position: relative;
-    background-color: var(--header-bg-color);
-    border-top: 2px solid var(--gray-color);
+    background-color: var(--night-mode-blue-main-bg-color);
 }
 .second-section-first-child-div{
     display: flex;
@@ -287,11 +288,12 @@ h2{
 }
 .second-section-title {
     margin-bottom: 20px;
+    color: var(--main-color);
 }
 .second-section-p {
-    color: var(--gray-color);
     font-size: 16px;
     word-spacing: 3px;
+    opacity: 0.7;
 }
 
 /* projects section  */
