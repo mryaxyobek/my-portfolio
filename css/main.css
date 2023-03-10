@@ -11,6 +11,8 @@
     --night-mode-moon-icon:url(../images/moon-icon.svg);
     --night-mode-display:none;
     --night-mode--m-display:inline-block;
+    --project-section-li-bgcolor:#fff;
+    --project-section-li-border: 2px solid #777;
 }
 .night-mode{
     --second-main-color:#fff;
@@ -22,6 +24,8 @@
     --night-mode-lighting-icon:url(../images/light-mode-icon.svg);
     --night-mode-display:inline-block;
     --night-mode--m-display:none;
+    --project-section-li-bgcolor:#0f2535;
+    --project-section-li-border: none;
 }
 
 html{
@@ -317,3 +321,31 @@ h2{
 
 /* projects section  */
 
+.projects-section {
+    background-color: var(--night-mode-main-bg-color);
+}
+.projects-section-title {
+}
+.projects-section-ul {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+}
+.projects-section-li {
+    list-style: none;
+    background-color: var(--project-section-li-bgcolor);
+    border: var(--project-section-li-border);
+    border-radius: 20px;
+}
+.projects-section-li-img {
+}
+.projects-section-li-first-p {
+}
+.projects-section-li-second-p {
+}
+.projects-section-li-p-span {
+}
+.projects-section-links-wrapper {
+}
+.project-section-links {
+}
