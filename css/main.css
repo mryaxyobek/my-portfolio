@@ -205,14 +205,33 @@ h2{
     background-size: cover;
     width: 20px;
     height: 20px;
+    transform: rotate(0deg);
+}
+@keyframes light-icon {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(90deg);
+    }
 }
 .night-mode-light-img {
     display: var(--night-mode-display);
     background-image: var(--night-mode-lighting-icon);
+    animation: light-icon 0.3s ease;
+}
+@keyframes moon-icon {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
 .night-mode-moon-img {
     display: var(--night-mode--m-display);
     background-image: var(--night-mode-moon-icon);
+    animation: moon-icon 0.3s ease;
 }
 .night-mode-button:hover{
     border: 2px solid var(--main-color);
