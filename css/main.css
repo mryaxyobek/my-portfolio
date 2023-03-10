@@ -178,9 +178,6 @@ h2{
 .header-li:not(:last-child) {
     margin-right: 15px;
 }
-.header-li:visited{
-    margin-bottom: 1px solid black;
-}
 .header-link {
     text-decoration: none;
     color: var(--second-main-color);
@@ -201,21 +198,19 @@ h2{
     color: #fff;
     transition: all 0.4s ease;
     border: 2px solid var(--main-color);
-
+}
+.night-mode-styles{
+    background-size: cover;
+    width: 20px;
+    height: 20px;
 }
 .night-mode-light-img {
     display: var(--night-mode-display);
     background-image: var(--night-mode-lighting-icon);
-    background-size: cover;
-    width: 20px;
-    height: 20px;
 }
 .night-mode-moon-img {
     display: var(--night-mode--m-display);
     background-image: var(--night-mode-moon-icon);
-    background-size: cover;
-    width: 20px;
-    height: 20px;
 }
 .night-mode-button:hover{
     border: 2px solid var(--main-color);
