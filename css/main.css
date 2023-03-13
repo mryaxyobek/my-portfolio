@@ -142,6 +142,7 @@ h2{
 .header-title {
     color:var(--main-color);
     font-size: 18px;
+    margin: 0;
 }
 .nav-and-button-wrapper {
     display: flex;
