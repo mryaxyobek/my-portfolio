@@ -329,7 +329,7 @@ h2{
 }
 .projects-section-ul {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto auto;
     grid-gap: 12px;
 }
 .projects-section-li {
@@ -348,6 +348,7 @@ h2{
 .projects-section-img-and-texts-wrapper{
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 .projects-section-li-img {
     width: 100px;
