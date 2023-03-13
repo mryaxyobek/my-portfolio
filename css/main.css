@@ -60,6 +60,7 @@ section{
 h2{
     font-size: 35px;
     color: var(--main-color);
+    margin-bottom: 30px;
 }
 
 /* header  */
@@ -266,7 +267,7 @@ h2{
     font-size: 40px;
     color: var(--main-color);
     line-height: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .hero-section-p {
     display: block;
@@ -309,9 +310,6 @@ h2{
 .hero-items-wrapper {
     max-width: 500px;
 }
-.second-section-title {
-    margin-bottom: 20px;
-}
 .second-section-p {
     font-size: 16px;
     word-spacing: 3px;
@@ -325,7 +323,6 @@ h2{
 }
 .projects-section-title {
     text-align: center;
-    margin-bottom: 20px;
 }
 .projects-section-ul {
     display: grid;
