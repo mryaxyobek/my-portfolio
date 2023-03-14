@@ -12,7 +12,7 @@
     --night-mode-display:none;
     --night-mode--m-display:inline-block;
     --project-section-li-bgcolor:#f9f9f9;
-    --project-section-li-box-shadow: 0 2px 4px 0px  #cdcdcd;
+    --project-section-li-box-shadow: #0000002e 0px 2px 4px;
 }
 .night-mode{
     --second-main-color:#fff;
@@ -24,7 +24,7 @@
     --night-mode-lighting-icon:url(../images/light-mode-icon.svg);
     --night-mode-display:inline-block;
     --night-mode--m-display:none;
-    --project-section-li-bgcolor:#0f2535;
+    --project-section-li-bgcolor:#173245;
     --project-section-li-box-shadow:none;
 }
 
@@ -334,10 +334,10 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 10px;
+    padding:8% 6%;
     list-style: none;
     background-color: var(--project-section-li-bgcolor);
-    border-radius: 20px;
+    border-radius: 15px;
     transition:box-shadow 0.3s ease ;
 }
 .projects-section-li:hover{
@@ -347,6 +347,57 @@ h2{
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+.link-to-view-site {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.projects-section-img {
+    width: 100%;
+    border-radius: 2%;
+}
+.github-and-netlify-link-div {
+    display: flex;
+    position: absolute;
+    transform: scaleY(0);
+    align-items: center;
+    justify-content: center;   
+    width: 70%;
+    height: 70%; 
+    background-color: rgba(222, 222, 222, 0.5);
+    border-radius: 2%;
+    transition: transform 0.3s ease;
+}
+.link-to-view-site:hover .github-and-netlify-link-div{
+    transform: scaleY(1);
+}
+.github-and-netlify-link {
+    display: inline-block;
+    text-decoration: none;
+    width: 15%;
+}
+.github-and-netlify-link:not(:last-child){
+    margin-right: 3.5%;
+}
+.links-logo-img{
+    width: 100%;
+    background-image: linear-gradient(45deg,rgb(67, 158, 183), rgb(200, 230, 255));
+    border-radius: 3px;
+}
+.code-logo-img {
+    background-image: linear-gradient(45deg,rgb(183, 67, 127), rgb(255, 200, 230));
+}
+.projects-section-h3 {
+    margin-bottom: 8px;
+}
+.projects-section-p {
+    text-align: center;
+    opacity: 0.7;
+    font-size: 14px;
 }
 /* footer */
 
