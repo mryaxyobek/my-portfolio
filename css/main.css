@@ -359,6 +359,19 @@ a{
     width: 100%;
     border-radius: 2%;
 }
+.github-and-nelify-link-wrapper{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: none;
+    transition:background-color 0.5s ease ;
+}
+.link-to-view-site:hover .github-and-nelify-link-wrapper{
+    background-color: rgba(33, 33, 33, 0.379);
+}
 .github-and-netlify-link-div {
     display: flex;
     position: absolute;
@@ -367,7 +380,7 @@ a{
     justify-content: center;   
     width: 70%;
     height: 70%; 
-    background-color: rgba(222, 222, 222, 0.5);
+    background-color: rgba(222, 222, 222, 0.695);
     border-radius: 2%;
     transition: transform 0.3s ease;
 }
