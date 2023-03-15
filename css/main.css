@@ -367,10 +367,10 @@ a{
     width: 100%;
     height: 100%;
     background-color: none;
-    transition:background-color 0.5s ease ;
+    transition:background-image 0.4s ease ;
 }
 .link-to-view-site:hover .github-and-nelify-link-wrapper{
-    background-color: rgba(33, 33, 33, 0.379);
+    background-color: rgba(0, 0, 0, 0.379);
 }
 .github-and-netlify-link-div {
     display: flex;
@@ -380,7 +380,7 @@ a{
     justify-content: center;   
     width: 70%;
     height: 70%; 
-    background-color: rgba(222, 222, 222, 0.695);
+    background-color: #ffffff98;
     border-radius: 2%;
     transition: transform 0.3s ease;
 }
