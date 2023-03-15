@@ -189,9 +189,17 @@ a{
     margin-right: 15px;
 }
 .header-link {
+    display: flex;
+    align-items: center; 
+}
+.header-link-span{
     color: var(--second-main-color);
     font-size: 15px;
-    font-weight: 500;   
+    font-weight: 500;  
+}
+.header-nav-icons{
+    width: 18px;
+    display: none;
 }
 .night-mode-button {
     display: flex;
