@@ -47,6 +47,7 @@ html{
     padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
+    z-index: 1;
 }
 .body{
     margin-top: 80px;
@@ -263,7 +264,13 @@ a{
 .hero-section {
     position: relative;
     background-color: var(--night-mode-main-bg-color);
-    z-index: 1;
+}
+.header-background-icon{
+    position: absolute;
+    width: 150px;
+    bottom: -75px;
+    left:0;
+    z-index: 0;
 }
 .hero-wrapper {
     display: flex;
@@ -304,6 +311,7 @@ a{
 
 .second-section {
     position: relative;
+    z-index: 1;
     background-color: var(--night-mode-blue-main-bg-color);
 }
 .second-section-first-child-div{
@@ -487,6 +495,10 @@ a{
     }
 }
 @media only screen and (max-width:850px) {
+    .header-background-icon{
+        width: 130px;
+        bottom: -65px;
+    }
     .hero-wrapper,.second-section-first-child-div{
         justify-content: space-between;
     }
@@ -503,6 +515,10 @@ a{
     }
 }
 @media only screen and (max-width:800px) {
+    .header-background-icon{
+        width: 120px;
+        bottom: -60px;
+    }
     .projects-section-ul{
         grid-template-columns: auto auto auto;
     }
@@ -525,6 +541,10 @@ a{
     }
 }
 @media only screen and (max-width:660px) {
+    .header-background-icon{
+        width: 90px;
+        bottom: -45px;
+    }
     .hero-section-title,.second-section-title,.projects-section-title{
         font-size: 24px;
         line-height: 25px;
@@ -612,6 +632,10 @@ a{
     }
 }
 @media only screen and (max-width:480px){
+    .header-background-icon{
+        width: 80px;
+        bottom: -40px;
+    }
     .projects-section-ul{
         grid-gap: 10px;
     }
@@ -635,5 +659,9 @@ a{
     }
     .night-mode-button{
         padding: 6px;
+    }
+    .header-background-icon{
+        width: 70px;
+        bottom: -35px;
     }
 }
