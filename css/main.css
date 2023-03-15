@@ -446,3 +446,22 @@ a{
 .footer-social-networks-link:not(:last-child){
     margin-bottom: 8px;
 }
+
+/* media  */
+
+@media only screen and (max-width:700px) {
+    .header-title{
+        max-width: 104px;
+    }
+    .night-mode-button{
+        margin-left: 20px;
+    }
+}
+@media only screen and (max-width:560px) {
+    .body{
+        margin-top: 64.8px;
+    }
+    .logo-img{
+        display: none;
+    }    
+}
