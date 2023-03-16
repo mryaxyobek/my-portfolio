@@ -700,7 +700,12 @@ a{
         margin-right: auto;
     }
 }
-@media only screen and (max-width:320px) {
+@media only screen and (max-width:350px) {
+    .hero-section-title,.second-section-title,.projects-section-title{
+        font-size: 22px;
+    }
+}
+    @media only screen and (max-width:325px) {
     .body{
         margin-top: 55.2px;
     }
@@ -709,6 +714,9 @@ a{
     }
     .night-mode-button{
         padding: 6px;
+    }
+    .hero-section-title,.second-section-title,.projects-section-title{
+        font-size: 20px;
     }
     .header-background-icon{
         width: 70px;
