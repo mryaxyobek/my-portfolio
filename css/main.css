@@ -691,6 +691,9 @@ a{
         width: 76px;
         bottom: -38px;
     }
+    .hero-section-p,.second-section-p{
+        text-align: justify;
+    }
     .projects-section-ul{
         grid-template-columns: auto;
     }
