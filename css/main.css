@@ -268,8 +268,8 @@ a{
 .header-background-icon{
     position: absolute;
     width: 150px;
-    bottom: -75px;
-    left:0;
+    bottom: 0;
+    left: -75px;
     z-index: 0;
 }
 .hero-wrapper {
@@ -507,7 +507,7 @@ a{
 @media only screen and (max-width:850px) {
     .header-background-icon{
         width: 130px;
-        bottom: -65px;
+        left:-65px;         
     }
     .second-section-background-icon{
         width: 130px;
@@ -531,7 +531,7 @@ a{
 @media only screen and (max-width:800px) {
     .header-background-icon{
         width: 120px;
-        bottom: -60px;
+        left:-60px;         
     }
     .second-section-background-icon{
         width: 120px;
@@ -544,7 +544,7 @@ a{
 @media only screen and (max-width:700px) {
     .header-background-icon{
         width: 110px;
-        bottom: -55px;
+        left:-55px;         
     }
     .second-section-background-icon{
         width: 110px;
@@ -569,7 +569,7 @@ a{
 @media only screen and (max-width:660px) {
     .header-background-icon{
         width: 100px;
-        bottom: -50px;
+        left:-50px;   
     }
     .second-section-background-icon{
         width: 100px;
@@ -662,7 +662,7 @@ a{
     }
     .header-background-icon{
         width: 86px;
-        bottom: -43px;
+        left:-43px;         
     }
     .second-section-background-icon{
         width: 86px;
@@ -672,7 +672,7 @@ a{
 @media only screen and (max-width:480px){
     .header-background-icon{
         width: 80px;
-        bottom: -40px;
+        left:-40px;         
     }
     .second-section-background-icon{
         width: 80px;
@@ -685,7 +685,7 @@ a{
 @media only screen and (max-width:435px){
     .header-background-icon{
         width: 76px;
-        bottom: -38px;
+        left:-38px;         
     }
     .second-section-background-icon{
         width: 76px;
@@ -723,10 +723,10 @@ a{
     }
     .header-background-icon{
         width: 70px;
-        bottom: -35px;
+        left:-35px;         
     }
     .second-section-background-icon{
         width: 70px;
         bottom: -35px;
     }
-}
+}   
