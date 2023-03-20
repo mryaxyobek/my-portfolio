@@ -27,7 +27,9 @@
     --project-section-li-bgcolor:#173245;
     --project-section-li-box-shadow:none;
 }
-
+header{
+    border-bottom: 1px solid #ffffff;
+}
 html{
     scroll-behavior: smooth;
 }
