@@ -15,6 +15,7 @@
     --night-mode--m-display:inline-block;
     --project-section-li-bgcolor:#f9f9f9;
     --project-section-li-box-shadow: #0000002e 0px 2px 4px;
+    --night-mode-button-border-color:#204476;
 }
 .night-mode{
     --scrollbar-thumb-color:#00a1e6;
@@ -30,6 +31,7 @@
     --night-mode--m-display:none;
     --project-section-li-bgcolor:#173245;
     --project-section-li-box-shadow:none;
+    --night-mode-button-border-color:#424d56;
 }
 html{
     scroll-behavior: smooth;
@@ -112,49 +114,9 @@ a{
     margin-right: 10px;
     border: 2px solid white;
 }
-@keyframes animate {
-    0%{
-    content: "html";
-    }
-    30%{
-        content: "css";
-
-    }
-    60%{
-        content: "bootstrap";
-
-    }
-    100%{
-        content: "html";
-    }
-}
 .logo-img-div{
     max-height: 60px;
     height: 100%;
-}
-.logo-img-div::after{
-    display: flex;
-    content: "html";
-    position: absolute;
-    opacity: 0;
-    animation: animate 2s ease infinite;
-    max-width: 60px;
-    width: 56px;
-    height: 50%;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0 0 50px 50px ;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.5);
-    font-size: 10px;
-    z-index: 2;
-    bottom: 2px;
-    left: 2px;
-    right: 0;
-    transition: all 0.7s ease;
-}
-.logo-img-div:hover::after{
-    opacity: 1;
 }
 .header-title {
     color:var(--main-color);
@@ -228,8 +190,8 @@ a{
     border: none;
     background-color: var(--main-color);
     color: #fff;
-    transition: all 0.4s ease;
-    border: 2px solid var(--main-color);
+    transition: border 0.2s ease;
+    border-bottom: 3px solid var(--night-mode-button-border-color);
 }
 .night-mode-styles{
     background-size: cover;
@@ -263,15 +225,8 @@ a{
     background-image: var(--night-mode-moon-icon);
     animation: moon-icon 0.3s ease;
 }
-.night-mode-button:hover{
-    border: 2px solid var(--main-color);
-    background-color: var(--header-bg-color);
-    color: var(--main-color);
-    --night-mode-moon-icon:url(../images/blue-moon-icon.svg);
-    --night-mode-lighting-icon:url(../images/blue-light-mode-icon.svg);
-}
 .night-mode-button:active{
-    opacity: 0.7;
+    border-bottom: 0.1px solid var(--night-mode-button-border-color);
 }
 /* Hero section  */ 
 
@@ -701,6 +656,9 @@ a{
         width: 76px;
         left:-38px;         
     }
+    .night-mode-button{
+        border-bottom: 2px solid var(--night-mode-button-border-color);
+    }
     .second-section-background-icon{
         width: 76px;
         bottom: -38px;
@@ -724,13 +682,13 @@ a{
 }
     @media only screen and (max-width:325px) {
     .body{
-        margin-top: 55.2px;
+        margin-top: 54.4px;
     }
     .header-title{
         font-size: 14px;
     }
     .night-mode-button{
-        padding: 6px;
+        padding: 5px 7px;
     }
     .hero-section-title,.second-section-title,.projects-section-title{
         font-size: 20px;
