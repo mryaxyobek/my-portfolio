@@ -5,7 +5,7 @@
     --main-font: 'Signika', sans-serif; 
     --header-box-shadow: 0 0 4px 0px #777;
     --header-bg-color:#fff;
-    --night-mode-blue-main-bg-color:#e9f2ff;
+    --night-mode-blue-main-bg-color:#deebfe;
     --night-mode-main-bg-color:#fff;
     --night-mode-lighting-icon:url(../images/light-mode-icon.svg);
     --night-mode-moon-icon:url(../images/moon-icon.svg);
@@ -17,7 +17,7 @@
 .night-mode{
     --second-main-color:#fff;
     --header-box-shadow:none;
-    --night-mode-blue-main-bg-color:#001c32;
+    --night-mode-blue-main-bg-color:#01243e;
     --night-mode-main-bg-color:#041a2b;
     --header-bg-color:#021024;
     --gray-color:#999999;
