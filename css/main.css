@@ -31,7 +31,7 @@
     --night-mode--m-display:none;
     --project-section-li-bgcolor:#173245;
     --project-section-li-box-shadow:none;
-    --night-mode-button-border-color:#424d56;
+    --night-mode-button-border-color:#8595a2;
 }
 html{
     scroll-behavior: smooth;
@@ -662,9 +662,6 @@ a{
     .second-section-background-icon{
         width: 76px;
         bottom: -38px;
-    }
-    .hero-section-p,.second-section-p{
-        text-align: justify;
     }
     .projects-section-ul{
         grid-template-columns: auto;
