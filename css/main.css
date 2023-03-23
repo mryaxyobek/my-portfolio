@@ -673,6 +673,16 @@ a{
     }
 }
 @media only screen and (max-width:350px) {
+    ::-webkit-scrollbar{
+        width: 8px;
+        background: var(--scrollbar-color);
+        margin-block: 10px;
+    }
+    ::-webkit-scrollbar-thumb{
+        background: linear-gradient(transparent,var(--scrollbar-thumb-color));
+        border-radius: 50px;
+        border: 2px solid var(--scrollbar-color);
+    }
     .hero-section-title,.second-section-title,.projects-section-title{
         font-size: 22px;
     }
