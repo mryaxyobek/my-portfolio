@@ -455,7 +455,7 @@ a{
 /* media  */
 
 @media only screen and (max-width:1000px) {
-    section{
+    section,.footer{
         padding: 70px 0px;
     }
     h2{
@@ -502,7 +502,7 @@ a{
     }
     }
 @media only screen and (max-width:700px) {
-    section{
+    section,.footer{
         padding: 45px 0;
     }
     .header-title{
@@ -539,7 +539,7 @@ a{
     .body{
         margin-top: 56.8px;
     }
-    section{
+    section,.footer{
         padding: 25px 0;
     }
     .logo-img{
