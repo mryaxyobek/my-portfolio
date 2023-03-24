@@ -127,6 +127,7 @@ a{
     color:var(--main-color);
     font-size: 18px;
     margin: 0;
+    cursor: url(../images/hand-cursor.svg),default;
 }
 .nav-and-button-wrapper {
     display: flex;
@@ -294,6 +295,9 @@ a{
     background: rgb(228,228,228);
     background:transparent;
 }
+.second-section-title{
+    display: inline-block;
+}
 .second-section-first-child-div{    
     display: flex;
     justify-content: space-around;
@@ -322,8 +326,6 @@ a{
 /* projects section  */
 
 .projects-section {
-    position: relative;
-    z-index: 2;
     background: transparent;
 }
 .projects-section-title {
