@@ -3,13 +3,10 @@
     --scrollbar-color:#dadada;
     --main-color:#0594d1;
     --second-main-color:#37393a;
-    --white-color:white;
-    --main-font: 'Signika', sans-serif; 
     --body-bg: linear-gradient(103deg, #d7edff 0%, #a7cfff 50%, #b3d5ff 100%);
     --header-box-shadow: 0 0 4px 0px #636363;
     --header-bg-color: linear-gradient(103deg, #9ecaff 0%, #d2e7ff 50%, #9cc6fb 100%);
     --night-mode-blue-main-bg-color:#deebfe;
-    --night-mode-main-bg-color:#fff;
     --night-mode-lighting-icon:url(../images/light-mode-icon.svg);
     --night-mode-moon-icon:url(../images/moon-icon.svg);
     --night-mode-display:none;
@@ -24,7 +21,6 @@
     --second-main-color:#fff;
     --header-box-shadow:0 0 0 1px #56789a;
     --night-mode-blue-main-bg-color:#01243e;
-    --night-mode-main-bg-color:#041a2b;
     --body-bg:linear-gradient(103deg, #000727 0%, #060619 50%, #000d31 100%);
     --header-bg-color:linear-gradient(103deg, #040c29, #001529);
     --gray-color:#999999;
@@ -194,8 +190,6 @@ a{
     margin-left: 30px;
     padding: 6px 16px;
     border-radius: 10px;
-    font-size: 15px;
-    font-family: var(--main-font);
     border: none;
     background-color: var(--main-color);
     color: #fff;
