@@ -137,8 +137,8 @@ a{
     display: flex;
 }
 .header-li {
-    list-style: none;
     position: relative;
+    list-style: none;
 }
 .header-li :focus{
     outline: none;
@@ -294,9 +294,6 @@ a{
     z-index: 1;
     background: rgb(228,228,228);
     background:transparent;
-}
-.second-section-title{
-    display: inline-block;
 }
 .second-section-first-child-div{    
     display: flex;
