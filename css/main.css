@@ -649,6 +649,10 @@ a{
     .second-section-p{
         max-width: 560px;
     }
+    .hero-technologies-div{
+        margin-left: auto;
+        margin-right: auto;
+    }
     .projects-section-title{
         margin-bottom: 16px;
     }
