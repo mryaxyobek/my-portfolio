@@ -269,6 +269,44 @@ a{
     opacity: 0.7;
     margin-bottom: 15px;
 }
+.hero-technologies-div {
+    display: flex;
+    max-width: 212.2px;
+    background-color: #fff;
+    padding: 8px 14px;
+    border-radius: 10px;
+
+}
+.technologies-text {
+}
+.hero-icons-wrapper {
+}
+.hero-icon-div{
+    display: flex;
+}
+.hero-icon-div:not(:last-child){
+    margin-bottom: 6px;
+}
+.hero-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+}
+.html-bg-div {
+    background-image: url(../images/html-icon.svg);
+}
+.css-bg-div {
+    background-image: url(../images/css-icon.svg);
+}
+.js-bg-div {
+    background-image: url(../images/js-icon.svg);
+}
+.bootstrap-bg-div {
+    background-image: url(../images/bootstrap-icon.svg);
+}
+.tailwind-bg-div {
+    background-image: url(../images/tailwind-icon.svg);
+}
 .contact-link{
     display: inline-block;
     margin: 0;
