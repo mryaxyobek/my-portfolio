@@ -267,14 +267,7 @@ a{
     font-size: 16px;
     color: var(--second-main-color);
     opacity: 0.7;
-}
-.hero-technologies-div {
-}
-.technologies-text {
-}
-.hero-icons-wrapper {
-}
-.hero-icon {
+    margin-bottom: 15px;
 }
 .contact-link{
     display: inline-block;
