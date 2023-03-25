@@ -421,6 +421,9 @@ a{
     background:transparent;
     filter: blur(0.5);
 }
+.footer-title{
+    color: var(--main-color);
+}
 .footer-parent-div {
     display: flex;
     justify-content: space-between;
