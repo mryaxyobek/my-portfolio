@@ -271,18 +271,54 @@ a{
 }
 .hero-technologies-div {
     display: flex;
-    max-width: 212.2px;
-    background-color: #fff;
+    position: relative;
+    z-index: 2;
+    max-width: 216.2px;
     padding: 8px 14px;
     border-radius: 10px;
-
+    background: #d6f3ff;
 }
 .technologies-text {
+    margin-right: 4px;
+    color: #060619;
+}
+@keyframes animation {
+    11%{
+        transform: translateY(0px);
+    }
+    22%{
+        transform: translateY(-26px);
+    }
+    33%{
+        transform: translateY(-52px);
+    }
+    44%{
+        transform: translateY(-78px);
+    }
+    55%{
+        transform: translateY(-104px);
+    }
+    66%{
+        transform: translateY(-78px);
+    }
+    77%{
+        transform: translateY(-52px);
+    }
+    88%{
+        transform: translateY(-26px);
+    }
+    99%{
+        transform: translateY(-0px);
+    }
 }
 .hero-icons-wrapper {
+    overflow: hidden;
+    height: 20px;
 }
 .hero-icon-div{
+    color: #060619;
     display: flex;
+    animation: animation 12s ease infinite;
 }
 .hero-icon-div:not(:last-child){
     margin-bottom: 6px;
@@ -303,17 +339,11 @@ a{
 }
 .bootstrap-bg-div {
     background-image: url(../images/bootstrap-icon.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 .tailwind-bg-div {
     background-image: url(../images/tailwind-icon.svg);
-}
-.contact-link{
-    display: inline-block;
-    margin: 0;
-    background-color:#fff;
-    padding: 6px 25px;
-    color: #00a1e6;
-    border: 2px solid #00a1e6;
 }
 .hero-contact-img{
     width: 20px;
