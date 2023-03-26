@@ -823,6 +823,9 @@ a{
     .projects-section-site-title{
         font-size: 15px;
     }
+    .projects-section-site-used-technology-text{
+        margin-bottom: 12px;
+    }
     .main-icon-img{
         width: 18px;
         height: 18px;
