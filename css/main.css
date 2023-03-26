@@ -567,12 +567,10 @@ a{
     .hero-worker-man-img{
         height: 100%;
     }
-}
-@media only screen and (max-width:800px) {
     .projects-section-ul{
         grid-template-columns: auto auto auto;
     }
-    }
+}
 @media only screen and (max-width:700px) {
     section,.footer{
         padding: 45px 0;
@@ -692,15 +690,19 @@ a{
         bottom: -40px;
     }
     .projects-section-ul{
+        grid-template-columns: auto;
         grid-gap: 10px;
+    }
+    .projects-section-li{
+        padding: 8px 10px;
+    }
+    .projects-section-img-and-texts-wrapper{
+        display: none;
     }
 }
 @media only screen and (max-width:435px){
     .night-mode-button{
         border-bottom: 2px solid var(--night-mode-button-border-color);
-    }
-    .projects-section-ul{
-        grid-template-columns: auto;
     }
     .projects-section-li{
         width: 80%;
