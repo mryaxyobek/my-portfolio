@@ -503,6 +503,7 @@ a{
 }
 .projects-section-site-used-technology-text {
     font-size: 8px;
+    margin-bottom: 19.5px;
 }
 .main-links-wrapper {
     display: flex;
@@ -775,6 +776,7 @@ a{
         display: flex;
     }
     .bottom-icon-wrapper {
+        margin-right: 0;
         width: 14px;
         height: 14px;
     }
@@ -782,7 +784,6 @@ a{
         transform: translateX(0%);
     }
     .bottom-icon{
-        margin-top: 19.5px;
         display: inline-block;
         width: 14px;
         border-radius: 50px;
@@ -793,7 +794,7 @@ a{
         position: absolute;
         z-index: 2;
         background-color: #fff;
-        border-radius: 8    px;
+        border-radius: 8px;
         padding: 6px;
         bottom: 0;
         top: 0;
@@ -803,6 +804,7 @@ a{
         transition: transform 0.8s ease;
     }
     .site-info {
+        font-size: 12px;
     }
 }
 @media only screen and (max-width:435px){
