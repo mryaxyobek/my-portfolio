@@ -11,8 +11,8 @@
     --night-mode-moon-icon:url(../images/moon-icon.svg);
     --night-mode-display:none;
     --night-mode--m-display:inline-block;
-    --project-section-li-bgcolor:#f9f9f9;
-    --project-section-li-box-shadow: #0000002e 0px 2px 4px;
+    --project-section-li-bgcolor:linear-gradient(86deg, #e9f8ff 0%, #dbf9ff 53%, #ededed 100%);
+    --project-section-li-box-shadow: #0000002e 2px 3px 6px 0px;
     --night-mode-button-border-color:#204476;
 }
 .night-mode{
@@ -408,7 +408,7 @@ a{
     align-items: center;
     padding:8% 6%;
     list-style: none;
-    background-color: var(--project-section-li-bgcolor);
+    background: var(--project-section-li-bgcolor);
     border-radius: 15px;
     transition:box-shadow 0.3s ease ;
 }
