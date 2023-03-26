@@ -489,7 +489,6 @@ a{
     align-items: center;
 }
 .projects-section-site-info {
-    align-items: center;
     display: flex;
 }
 .projects-section-site-img{
@@ -755,15 +754,24 @@ a{
     .night-mode-button{
         border-bottom: 2px solid var(--night-mode-button-border-color);
     }
-    .projects-section-li{
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-    }
 }
 @media only screen and (max-width:350px) {
     .hero-section-title,.second-section-title,.projects-section-title{
         font-size: 22px;
+    }
+    .projects-section-site-img{
+        width: 60px;
+        height: 60px;
+    }
+    .projects-section-site-title{
+        font-size: 15px;
+    }
+    .main-icon-img{
+        width: 18px;
+        height: 18px;
+    }
+    .main-links-text-span{
+        font-size: 14px;
     }
 }
     @media only screen and (max-width:325px) {
