@@ -403,7 +403,7 @@ a{
     grid-gap: 12px;
 }
 .projects-section-li {
-    /* display: flex; */
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding:8% 6%;
@@ -493,8 +493,8 @@ a{
     display: flex;
 }
 .projects-section-site-img{
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
 }
 .projects-section-site-texts {
     margin-left: 8px;
@@ -741,10 +741,14 @@ a{
         grid-gap: 10px;
     }
     .projects-section-li{
-        padding: 8px 10px;
+        display: inline-block;
+        padding: 8px 8px;
     }
     .projects-section-img-and-texts-wrapper{
         display: none;
+    }
+    .projects-section-second-parent {
+        display: flex;
     }
 }
 @media only screen and (max-width:435px){
