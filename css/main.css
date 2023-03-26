@@ -583,8 +583,9 @@ a{
     .night-mode-button{
         margin-left: 20px;
     }
-    .contact-link{
-        display: none;
+    .hero-worker-man-img{
+        height: 178px;
+        width: 198px;
     }
     .second-section-p{
         max-width: 340px;
@@ -599,6 +600,9 @@ a{
     .hero-section-p,.second-section-p{
         font-size: 12px;
         max-width: 280px;
+    }
+    .hero-worker-man-img{
+        height: 172px;
     }
     .second-section-p{
         max-width: 310px;
