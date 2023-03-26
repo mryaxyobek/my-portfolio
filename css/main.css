@@ -403,7 +403,7 @@ a{
     grid-gap: 12px;
 }
 .projects-section-li {
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     align-items: center;
     padding:8% 6%;
@@ -483,6 +483,53 @@ a{
     opacity: 0.7;
     font-size: 14px;
 }
+.projects-section-second-parent {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+}
+.projects-section-site-info {
+    align-items: center;
+    display: flex;
+}
+.projects-section-site-img{
+    width: 80px;
+    height: 80px;
+}
+.projects-section-site-texts {
+    margin-left: 8px;
+}
+.projects-section-site-title {
+    margin-bottom: 4px;
+}
+.projects-section-site-used-technology-text {
+    font-size: 8px;
+}
+.main-links-wrapper {
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+}
+.main-icon-link {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    background-color: #00a1e6;
+    border-radius: 50px;
+}
+.main-icon-link:not(:last-child){
+    margin-bottom: 4px;
+}
+.main-icon-img {
+    margin-right: 4px;
+    padding: 1px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+.main-links-text-span {
+    color: rgba(0, 0, 0, 0.877);
+}
+
 /* footer */
 
 .footer{
