@@ -446,12 +446,13 @@ a{
     height: 100%;
     background-color: none;
     transition:background-color 0.4s ease ;
+    border-radius: 2%;
 }
 .link-to-view-site:hover .github-and-nelify-link-wrapper{
     background-color: #001d4423;
 }
 .link-to-view-site:hover .github-and-netlify-link-div{
-backdrop-filter: blur(1px);
+backdrop-filter: blur(1.5px);
 }
 .github-and-netlify-link-div {
     display: flex;  
