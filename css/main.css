@@ -660,6 +660,9 @@ backdrop-filter: blur(1.5px);
     }
 }
 @media only screen and (max-width:750px) {
+    .projects-section-h3{
+        font-size: 14px;
+    }
     .projects-section-p{
         font-size: 10px;
     }
@@ -668,11 +671,14 @@ backdrop-filter: blur(1.5px);
     section,.footer{
         padding: 45px 0;
     }
+    .header-li:not(:last-child){
+        margin-right: 6px;
+    }
     .night-mode-button{
         margin-left: 20px;
     }
     .second-section-background-img{
-        width: 250px;
+        width: 200px;
         height: 208px;
     }
     .hero-section-p,.second-section-p{
@@ -680,8 +686,8 @@ backdrop-filter: blur(1.5px);
         max-width: 340px;
     }
     .second-section-background-img{
-        width: 270px;
-        height: 214px;
+        width: 230px;
+        height: 198px;
     }
     .footer-title{
         font-size: 14px;
@@ -714,13 +720,35 @@ backdrop-filter: blur(1.5px);
     }
     .second-section-background-img{
         width: auto;
-        height: 189.4px;
+        height: 172.6px;
     }
     .projects-section-li{
         border-radius: 8px;
     }
 }
+@media only screen and (max-width:600px) {
+    .body{
+        margin-top: 74px;
+    }
+    .logo-img{
+        width: 50px;
+        height: 50px;
+    }
+    .header-title{
+        font-size: 15px;
+    }
+    .header-link-span{
+        font-size: 13px;
+    }
+}
 @media only screen and (max-width:560px) {
+    .body{
+        margin-top: 58.4px;
+    }
+    .container{
+        padding-left: 18px;
+        padding-right: 18px;
+    }
     .body{
         margin-top: 56.8px;
     }
@@ -733,17 +761,14 @@ backdrop-filter: blur(1.5px);
     .header-title{
         font-size: 16px;
     }
-    .header-link-span{
-        display: none;
-    } 
     .header-li::after{
         background-color: #0594d1;
     }
-    .header-nav-icons{
-        display: inline-block;
-    }
     .night-mode-button{
         padding:4px 12px ;
+    }
+    .hero-section-title,.second-section-title,.projects-section-title{
+        font-size: 22px;
     }
     .hero-worker-man-img,.second-section-background-img{
         display: none;
@@ -795,13 +820,25 @@ backdrop-filter: blur(1.5px);
     }
 }
 @media only screen and (max-width:480px){
-    .header-background-icon{
-        width: 80px;
-        left:-40px;         
+    .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .header-link-span{
+        display: none;
+    } 
+    .header-nav-icons{
+        display: inline-block;
+    }
+    .header-li:not(:last-child){
+        margin-right: 12px;
     }
     .second-section-background-icon{
         width: 80px;
         bottom: -40px;
+    }
+    .hero-section-title,.second-section-title,.projects-section-title{
+        font-size: 20px;
     }
     .projects-section-ul{
         grid-template-columns: auto;
@@ -857,6 +894,13 @@ backdrop-filter: blur(1.5px);
     }
 }
 @media only screen and (max-width:350px) {
+    .container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .header-li:not(:last-child){
+        margin-right: 8px;
+    }
     .hero-section-title,.second-section-title,.projects-section-title{
         font-size: 22px;
     }
@@ -878,12 +922,18 @@ backdrop-filter: blur(1.5px);
         font-size: 14px;
     }
 }
-    @media only screen and (max-width:325px) {
+    @media only screen and (max-width:330px) {
     .body{
-        margin-top: 54.4px;
+        margin-top: 52px;
     }
     .header-title{
         font-size: 14px;
+    }
+    .hero-section-title,.second-section-title,.projects-section-title{
+        font-size: 18px;
+    }
+    .night-mode-button{
+        margin-left: 12px;
     }
     .night-mode-button{
         padding: 5px 7px;
