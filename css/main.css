@@ -878,7 +878,7 @@ backdrop-filter: blur(1.5px);
     .site-info-div {
         position: absolute;
         z-index: 2;
-        background-color: #fff;
+        background: var(--project-section-li-bgcolor);
         border-radius: 8px;
         padding: 6px;
         bottom: 0;
