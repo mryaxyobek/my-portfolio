@@ -856,6 +856,9 @@ backdrop-filter: blur(1.5px);
     .projects-section-second-parent {
         display: flex;
     }
+    .projects-section-site-title{
+        font-size: 14px;
+    }
     .bottom-icon-wrapper {
         margin-right: 0;
         width: 14px;
@@ -889,11 +892,17 @@ backdrop-filter: blur(1.5px);
     }
 }
 @media only screen and (max-width:435px){
+    section,.footer{
+        padding: 23px 0;
+    }
     .night-mode-button{
         border-bottom: 2px solid var(--night-mode-button-border-color);
     }
 }
 @media only screen and (max-width:350px) {
+    section,.footer{
+        padding: 20px 0;
+    }
     .container{
         padding-left: 10px;
         padding-right: 10px;
@@ -902,7 +911,7 @@ backdrop-filter: blur(1.5px);
         margin-right: 8px;
     }
     .hero-section-title,.second-section-title,.projects-section-title{
-        font-size: 22px;
+        font-size: 18px;
     }
     .projects-section-site-img{
         width: 60px;
@@ -913,13 +922,29 @@ backdrop-filter: blur(1.5px);
     }
     .projects-section-site-used-technology-text{
         margin-bottom: 12px;
-    }
+    } 
     .main-icon-img{
         width: 18px;
         height: 18px;
     }
     .main-links-text-span{
         font-size: 14px;
+    }
+    .projects-section-site-title{
+        font-size: 12px;
+    }
+    .projects-section-site-used-technology-text{
+        font-size: 6px;
+    }
+    .main-icon-img{
+        width: 14px;
+        height: 14px;
+    }
+    .main-links-text-span{
+        font-size: 12px;
+    }
+    .site-info{
+        font-size: 10px;
     }
 }
     @media only screen and (max-width:330px) {
@@ -929,16 +954,24 @@ backdrop-filter: blur(1.5px);
     .header-title{
         font-size: 14px;
     }
-    .hero-section-title,.second-section-title,.projects-section-title{
-        font-size: 18px;
-    }
     .night-mode-button{
         margin-left: 12px;
     }
     .night-mode-button{
         padding: 5px 7px;
     }
-    .hero-section-title,.second-section-title,.projects-section-title{
-        font-size: 20px;
+    .site-info{
+        font-size: 9px;
     }
 }   
+@media only screen and (max-width:300px) {
+    section,.footer{
+        padding: 18px 0;
+    }
+    .hero-section-title,.second-section-title,.projects-section-title{
+        font-size: 16px;
+    }
+    .site-info{
+        font-size: 8px;
+    }
+}
