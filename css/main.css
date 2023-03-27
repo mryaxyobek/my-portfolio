@@ -129,6 +129,10 @@ a{
     margin: 0;
     cursor: url(../images/hand-cursor.svg),default;
 }
+.header-text-below-title{
+    color: var(--second-main-color);
+    font-size: 12px;
+}
 .nav-and-button-wrapper {
     display: flex;
     align-items: center;
@@ -469,11 +473,11 @@ a{
 }
 .links-logo-img{
     width: 100%;
-    background-image: linear-gradient(45deg,rgb(67, 158, 183), rgb(200, 230, 255));
+    background-image: linear-gradient(45deg,#439eb7, #c8e6ff);
     border-radius: 3px;
 }
 .code-logo-img {
-    background-image: linear-gradient(45deg,rgb(183, 67, 127), rgb(255, 200, 230));
+    background-image: linear-gradient(45deg,#b7437f, #ffc8e6);
 }
 .projects-section-h3 {
     margin-bottom: 8px;
@@ -645,21 +649,20 @@ a{
     section,.footer{
         padding: 45px 0;
     }
-    .header-title{
-        max-width: 104px;
-    }
     .night-mode-button{
         margin-left: 20px;
-    }
-    .hero-worker-man-img{
-        height: 178px;
-        width: 198px;
     }
     .second-section-p{
         max-width: 340px;
     }
 }
 @media only screen and (max-width:660px) {
+    .header-title{
+        max-width: 104px;
+    }
+    .header-text-below-title{
+        display: none;
+    }
     .hero-section-title,.second-section-title,.projects-section-title{
         font-size: 24px;
         line-height: 25px;
