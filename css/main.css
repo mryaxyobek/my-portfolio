@@ -27,7 +27,7 @@
     --night-mode-lighting-icon:url(../images/light-mode-icon.svg);
     --night-mode-display:inline-block;
     --night-mode--m-display:none;
-    --project-section-li-bgcolor:#173245;
+    --project-section-li-bgcolor:linear-gradient(90deg, #001a2d, #133146);
     --project-section-li-box-shadow:none;
     --night-mode-button-border-color:#113e64;
 }
@@ -423,10 +423,11 @@ a{
     list-style: none;
     background: var(--project-section-li-bgcolor);
     border-radius: 15px;
-    transition:box-shadow 0.3s ease ;
+    transition:box-shadow  0.3s ease, transform 0.3s ease;
 }
 .projects-section-li:hover{
     box-shadow:var(--project-section-li-box-shadow) ;
+    transform:scale(1.03) ;
 }
 .projects-section-img-and-texts-wrapper{
     display: flex;
