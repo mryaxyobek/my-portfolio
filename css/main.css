@@ -489,7 +489,12 @@ backdrop-filter: blur(1.5px);
     width: 100%;
     background-image: linear-gradient(45deg,#439eb7, #c8e6ff);
     border-radius: 3px;
+    transition: transform 0.2s ease;
 }
+.links-logo-img:active{
+    transform: scale(0.85);
+}
+
 .code-logo-img {
     background-image: linear-gradient(45deg,#b7437f, #ffc8e6);
 }
@@ -534,6 +539,10 @@ backdrop-filter: blur(1.5px);
     padding: 4px;
     background-color: #00a1e6;
     border-radius: 50px;
+    transition: transform 0.2s ease;
+}
+.main-icon-link:active{
+    transform: scale(0.85);
 }
 .main-icon-link:not(:last-child){
     margin-bottom: 4px;
@@ -587,7 +596,7 @@ backdrop-filter: blur(1.5px);
 .footer-main-icon-link {
     position: relative;
     overflow: hidden;
-    width: 80px;
+    width:auto ;
 }
 .footer-main-icon-link::after{
     display: inline-block;
@@ -703,7 +712,7 @@ backdrop-filter: blur(1.5px);
 @media only screen and (max-width:660px) {
     .header-title{
         max-width: 104px;
-    }
+    }#ffffff64
     .header-text-below-title{
         display: none;
     }
